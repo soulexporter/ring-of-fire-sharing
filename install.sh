@@ -39,7 +39,7 @@ arguments=$(echo "-c $config_file" | sed -e "s|\/|\\\/|g")
 
 user=$(whoami)
 
-PS3='Lightning Implementation (type the corresponding number):'
+PS3='Which user has the right to run lncli? (type the corresponding number):'
 options=("$user (current)" "lightning" "lnd" "umbrel" "other (specify)")
 select opt in "${options[@]}"
 do
