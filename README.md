@@ -42,6 +42,7 @@ The following log should show no error:
 # Tools
 
 ## Add/Remove direct peers
+When joining another ring your node will have 2 new relevant direct peers.
 To avoid editing the JSON configuration or running the `config.sh` script again. You can use the following scripts to add/remove peers:
 
 `./addPeer.sh PUBLIC_KEY`
